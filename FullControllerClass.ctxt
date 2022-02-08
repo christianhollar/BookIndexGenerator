@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FullControllerClass
+comment0.text=\n\ Holds\ calls\ for\ indexes\ for\ each\ data\ structure.\ \n\n\ @ChristianHollar\n\ @12/4/20\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=type
+comment2.target=FullControllerClass(java.lang.String)
+numComments=3

@@ -1,0 +1,17 @@
+#Tue Feb 08 11:24:15 EST 2022
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.yourName=Christian Hollar
+bluej.teamsettings.git.server=github.com
+bluej.teamsettings.yourEmail=hollarc@lafayette.edu
+bluej.teamsettings.git.repositoryPrefix=/christianhollar/TestUpload.git
+bluej.teamsettings.vcs=git
+bluej.teamsettings.user=christianhollar
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.git.branch=
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.git.protocol=https
+bluej.teamsettings.ignore8=\\.DS_Store

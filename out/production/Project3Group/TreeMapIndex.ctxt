@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TreeMapIndex
+comment0.text=\n\ Creates\ an\ index\ of\ a\ text\ file\ using\ TreeMap\n\n\ @author\ Andrew\ Heare\n\ @version\ 12/04/2020\n
+comment1.params=
+comment1.target=TreeMapIndex()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ TreeMapIndex\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Reads\ the\ input\ file\ and\ adds\ words\ to\ the\ index\n\n\ @param\ \ \n\ @return\ \ \n
+comment3.params=word\ line
+comment3.target=void\ addToTreeMap(java.lang.String,\ int)
+comment3.text=\n\ Adds\ words\ to\ index\ using\ TreeMap\n\n\ @param\ \ word\ The\ word\ to\ be\ inserted\n\ \ \ \ \ \ \ \ \ line\ The\ line\ number\ where\ the\ word\ appears\n\ @return\ \ \ \ \n
+numComments=4

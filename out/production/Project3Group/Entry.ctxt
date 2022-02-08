@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Entry
+comment1.params=word\ lineNumber
+comment1.target=Entry(java.lang.String,\ java.lang.Integer)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Entry\n
+comment2.params=
+comment2.target=java.lang.String\ getWord()
+comment2.text=\n\ Method\ getWord\ is\ a\ simple\ getter\ method\n\n\ @return\ the\ word\ within\ each\ entry\ object\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getLineNumbers()
+comment4.params=lineNumber
+comment4.target=void\ addAdditionalLineNumber(java.lang.Integer)
+comment4.text=\n\ Method\ addAdditionalLineNumber\ adds\ the\ additional\ line\ number\ to\ the\ set\ of\ line\ numbers\n\n\ @param\ lineNumber\ to\ be\ added\n
+comment5.params=x
+comment5.target=int\ compareTo(Entry)
+numComments=6

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ReadHash
+comment0.text=\n\ ReadHash\:\n\ -ReadHash\ takes\ in\ a\ file.\n\ -File\ is\ broken\ into\ strings.\n\ -Strings\ are\ added\ to\ ArrayList.\n\ -HashMap\ holds\ each\ string\ as\ key\ elements.\n\ -HashMap\ holds\ number\ appearence\ as\ value\ elements.\n\n\ @ChristianHollar\n\ @12/1/20\n
+comment1.params=filename
+comment1.target=ReadHash(java.lang.String)
+comment1.text=\n\ ReadHash\n\ -Takes\ in\ filename\ String\n\ -Converts\ to\ File\n\ -Scanner\ adds\ each\ line\ to\ ArrayList<String>\n\ @String\n
+comment2.params=
+comment2.target=long\ readInHash()
+comment2.text=\n\ readInHash\n\ -cycles\ through\ each\ String\ in\ ArrayList<String>\n\ -converts\ each\ String\ to\ lowercase\n\ -removes\ punctuation\ etc.\n\ -long\ to\ track\ time\ for\ each\ add\n\n\ @param\ void\n\ @return\ \ long\ total\ time\ of\ each\ add\ to\ hashMap\n
+comment3.params=word\ line
+comment3.target=void\ addToHashMap(java.lang.String,\ int)
+comment3.text=\n\ addToHashMap\n\ currentLine\ Tracker\n\ check\ if\ key\ contain\n\ \ \ \ \ \ -if\ so\ add\ new\ lineNumber\ to\ TreeSet\n\ \ \ \ \ \ -else\ new\ treeSet\ and\ key,value\ point\ on\ HashMap\n\ param\ String\ word\ to\ add,\ int\ line\ number\ of\ the\ word\n\ return\ void\n
+comment4.params=key
+comment4.target=boolean\ contains(java.lang.String)
+comment4.text=\n\ contains()\n\ param\ String\ key\ value\ to\ search\ for\n\ return\ boolean\ true/false\ if\ contained\n
+comment5.params=
+comment5.target=void\ getHashMap()
+comment5.text=\n\ getHashMap()\n\ print\ HashMap\ to\ txt\ file\n\ \n\ param\ void\n\ return\ void\n
+comment6.params=
+comment6.target=void\ sortHashMap()
+comment6.text=\n\ sortHashMap()\n\ two\ Lists\n\ First\n\ \ \ \ \ \ -holds\ all\ key\ values\ from\ HashMap.keySet()\n\ \ \ \ \ \ -sort\n\ Second\n\ \ \ \ \ \ -holds\ HashObjects\n\ for\ each\ key\n\ \ \ \ \ \ -create\ hashObject\ with\ string\ key\ and\ tree\ set\ value\n\ \ \ \ \ \ -tree\ set\ from\ h.get(key)\n\ \ \ \ \ \ -add\ hashObject\ to\ List\n\ Sort\ List\ based\ on\ compareTo\ \=>\ Set\ to\ String\ keys\ comparison\n\ Print\ each\ hashObject\ from\ List\n\ \n\ param\ void\n\ return\ void\n
+numComments=7

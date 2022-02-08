@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=IndexUsingSortedList
+comment1.params=file
+comment1.target=IndexUsingSortedList(java.lang.String)
+comment1.text=\n\ Constructor\ for\ creating\ the\ index\n
+comment2.params=file
+comment2.target=void\ createIndex(java.lang.String)
+comment2.text=\n\ Method\ createIndex\ is\ the\ main\ method\ resposible\ for\ putting\ together\ the\ index\n\n\ @param\ file\ the\ input\ file\ to\ be\ indexed\n
+comment3.params=
+comment3.target=java.lang.String[]\ dictionary()
+comment3.text=\n\ Method\ dictionary\ is\ responsible\ for\ reading\ in\ the\ dictionary\ and\ formatting\ it\ so\ it\ can\ be\ used\ to\ identify\n\ words\ to\ index.\n\n\ @return\ Array\ of\ all\ the\ words\ in\ the\ english\ language.\n
+comment4.params=arr\ x
+comment4.target=int\ binarySearch(java.lang.String[],\ java.lang.String)
+comment4.text=\n\ Method\ binarySearch\ simple\ binary\ seach\ algorithm\ to\ find\ strings\ in\ a\ sorted\ list\n\n\ @param\ arr\ array\ of\ strings\ to\ be\ searched\ through\n\ @param\ x\ the\ key\ that\ we\ want\ to\ find\n\ @return\ greater\ than\ 0\ if\ in\ the\ array\ and\ -1\ if\ not\ present\n
+comment5.params=value
+comment5.target=void\ insertSorted(Entry)
+comment5.text=\n\ Method\ insertSorted\ is\ a\ helper\ method\ that\ adds\ items\ in\ sorted\ order\ to\ the\ ArrayList\n\n\ @param\ value\ the\ Entry\ to\ be\ added\n
+comment6.params=word
+comment6.target=boolean\ contains(java.lang.String)
+comment6.text=\n\ Method\ contains\ is\ a\ helper\ method\ that\ determines\ if\ a\ word\ is\ in\ the\ arrayList\n\n\ @param\ word\ is\ the\ word\ being\ searched\ for\n\ @return\ true\ if\ present,\ false\ if\ absent\n
+comment7.params=lineNumber
+comment7.target=void\ addAdditionalLineNumber(int)
+comment7.text=\n\ Method\ addAdditionalLineNumber\ is\ a\ helper\ method\ which\ adds\ an\ additional\ line\ number\ to\ the\ set\ of\ line\n\ numbers\n\n\ @param\ lineNumber\ the\ line\ number\ to\ be\ addded\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
